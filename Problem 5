@@ -1,0 +1,59 @@
+#include<stdio.h>
+int main(){
+int a;
+float circle;
+float rectangle;
+float triangle;
+float radius;
+float area;
+float length;
+float wide;
+float height;
+float base;
+
+
+
+
+printf("Which Shape of Area Wants :");
+scanf("%d",&a);
+
+if (a==1){
+    printf("Circle\n");
+
+    printf("Enter the Radius:");
+    scanf("%f",&radius);
+
+     printf("%f",circle=3.14*radius*radius);
+
+
+}
+else if(a==2){
+
+    printf("Rectangle\n");
+
+    printf("Enter the Length:");
+    scanf("%f",&length);
+    printf("Enter the Wide:");
+    scanf("%f",&wide);
+
+    printf("%f",rectangle=length*wide);
+
+}
+else if (a==3){
+
+    printf("Triangle\n");
+
+    printf("Enter the Height:");
+    scanf("%f",&height);
+    printf("Enter the Base:");
+    scanf("%f",&base);
+
+    printf("%f",triangle=1/2*height*base);
+
+}
+else {
+    printf("Invalid Shape");
+
+}
+
+}
